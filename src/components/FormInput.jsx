@@ -9,14 +9,17 @@ const useStyles = makeStyles({
     root: {
         background: 'linear-gradient(45deg, gray 30%, black 90%)',
         border: 0,
-        color: 'white',
-        height: 30,
-        padding: '0 10px',
+        color: '#fff',
+        height: '100%',
+        padding: '20px',
         whiteSpace: 'nowrap',
-        margin: '15px 0 0 20px',
+        boxShadow:' 0 0 10px 6px #ffffff60',
     },
     label: {
-        width: '80%'
+        width: '80%',
+        background: '#fff',
+        borderradius:'5px',
+        
     }
 });
 

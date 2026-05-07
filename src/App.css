@@ -1,3 +1,6 @@
+*{box-sizing: border-box;margin: 0; padding: 0;}
+body{background-color:#000;}
+
 ul {
   list-style: none;
   width: 400px;
@@ -14,6 +17,7 @@ ul {
 
 h1 {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .form {
@@ -26,6 +30,8 @@ h1 {
   border-bottom: 1px dashed gray;
   padding-bottom: 10px;
   height: 67px;
+  align-items: center;
+  gap:20px;
 }
 
 .form__edit-input {
@@ -34,6 +40,7 @@ h1 {
   font-size: 20px;
   width: 90%;
 }
+.makeStyles-root-1:hover{box-shadow: 0 0 10px 6px #fff;}
 
 .visuallyhidden {
   border: 0;
@@ -45,3 +52,14 @@ h1 {
   position: absolute;
   width: 1px;
 }
+
+.makeStyles-label-2 {
+    width: 80%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(10px, -9px) scale(0.75) !important;
+    background: #fff;
+    padding: 8px;border-radius: 5px;}
