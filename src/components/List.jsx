@@ -15,7 +15,7 @@ const useStyles = makeStyles(() => ({
     root: {
         width: '100%',
         backgroundColor: '#f5f5f5',
-        padding: 0
+        padding: 0,
     },
     li: {
         borderBottom: '1px dashed black'
