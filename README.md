@@ -23,4 +23,4 @@ A modern and responsive task management application developed using React.js and
 Clone the repository:
 
 ```bash
-git clone <your-repository-link>
+git clone <https://github.com/maddulaseetasravankumar/task-management-application>

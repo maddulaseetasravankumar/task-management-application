@@ -63,3 +63,8 @@ h1 {
     transform: translate(10px, -9px) scale(0.75) !important;
     background: #fff;
     padding: 8px;border-radius: 5px;}
+
+
+.copy-rights{position: fixed;bottom: 0;left: 0;width: 100%;text-align: center;padding: 10px;background-color: #000;color: #fff;font-size: 14px;border-top: 1px solid #fff;}
+.copy-rights p a{color: #fff;text-decoration: none;}
+.copy-rights p a:hover{color: #fff;text-decoration: underline;}
